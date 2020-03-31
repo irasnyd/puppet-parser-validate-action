@@ -1,0 +1,9 @@
+name: 'puppet-parser-validate-action'
+author: 'Ira W. Snyder <https://github.com/irasnyd/>'
+description: 'GitHub Action to run "puppet parser validate" syntax check'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'share-2'
+  color: 'orange'
