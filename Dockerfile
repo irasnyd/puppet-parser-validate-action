@@ -15,4 +15,3 @@ RUN yum -y install http://yum.puppetlabs.com/puppet5/el/8/x86_64/puppet-agent-5.
 COPY entrypoint.sh /entrypoint.sh
 RUN ["chmod", "+x", "/entrypoint.sh"]
 ENTRYPOINT ["/entrypoint.sh"]
-CMD ["./"]
