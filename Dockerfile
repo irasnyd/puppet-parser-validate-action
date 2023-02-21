@@ -1,4 +1,4 @@
-FROM centos:8
+FROM rockylinux:8
 
 LABEL name="puppet-parser-validate-action"
 LABEL repository="https://github.com/irasnyd/puppet-parser-validate-action"
